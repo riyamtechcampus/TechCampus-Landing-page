@@ -100,3 +100,14 @@ ul li:nth-child(5) a {
     border-radius: 5px;
     color: aliceblue;
 }
+
+
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+    .logo {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .menu {
+        display: none;
+    }
+}
